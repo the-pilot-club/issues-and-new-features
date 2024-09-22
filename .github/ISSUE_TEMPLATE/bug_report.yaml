@@ -1,0 +1,28 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+projects: ["octo-org/1", "octo-org/44"]
+body:
+  - type: dropdown
+    id: resource
+    attributes:
+      label: Resource
+      description: Which web resources is this bug on?
+      options:
+        - Flight Crew Portal
+        - Discord Bot
+        - API
+        - Flight School
+        - Other
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Tell us, what happened?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
