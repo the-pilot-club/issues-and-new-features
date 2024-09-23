@@ -1,6 +1,8 @@
 name: Feature Request
 description: Request a new feature in one of our web resources!
 title: "[Feature Request]: "
+assignees:
+  - 'vFlyingCowboy'
 body:
   - type: dropdown
     id: resource
