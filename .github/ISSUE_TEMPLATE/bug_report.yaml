@@ -3,6 +3,7 @@ description: File a bug report.
 title: "[Bug]: "
 assignees:
   - 'vFlyingCowboy'
+labels: ["bug"]
 body:
   - type: dropdown
     id: resource
@@ -14,6 +15,8 @@ body:
         - Discord Bot
         - API
         - Flight School
+        - Argo
+        - Infrastructure
         - Other
       default: 0
     validations:

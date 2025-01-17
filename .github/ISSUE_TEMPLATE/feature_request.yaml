@@ -3,6 +3,7 @@ description: Request a new feature in one of our web resources!
 title: "[Feature Request]: "
 assignees:
   - 'vFlyingCowboy'
+labels: ["feature-request"]
 body:
   - type: dropdown
     id: resource
@@ -14,7 +15,8 @@ body:
         - Discord Bot
         - API
         - Flight School
-        - Unknown
+        - Documentation Website
+        - Other
       default: 0
     validations:
       required: true
