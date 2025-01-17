@@ -67,7 +67,7 @@ To share your ideas, follow these steps:
 ## Contact Us
 
 If you have any questions or need assistance with using this repository, please reach out to us via:
-- Our Discord server: [TPC Discord](#)
+- Our Discord server: [TPC Discord](https://join.thepilotclub.org)
 - Email: [webdev@thepilotclub.org](mailto:webdev@thepilotclub.org)
 
 Thank you for contributing to The Pilot Club’s growth and innovation!
