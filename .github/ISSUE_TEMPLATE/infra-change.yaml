@@ -1,33 +1,32 @@
-name: Bug Report
-description: File a bug report.
-title: "[Bug]: "
+name: Infrastructure Change Request
+description: Request an update to the infrastructure!
+title: "[Infra Change]: "
 assignees:
   - 'vFlyingCowboy'
-labels: ["bug"]
+labels: ["infra-change-request"]
 body:
   - type: dropdown
     id: resource
     attributes:
       label: Resource
-      description: Which web resources is this bug on?
+      description: Which resource does this apply to?
       options:
         - Flight Crew Portal
         - Discord Bot v2
         - Discord Bot v3
         - API
+        - API V3
         - Flight School
-        - Argo
+        - Documentation Website
         - Infrastructure
         - Other
       default: 0
     validations:
       required: true
   - type: textarea
-    id: what-happened
+    id: feature
     attributes:
-      label: What happened?
-      description: Tell us, what happened?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Whats the Change?
+      description: Give us as much detail about the change you are requesting!
     validations:
       required: true
