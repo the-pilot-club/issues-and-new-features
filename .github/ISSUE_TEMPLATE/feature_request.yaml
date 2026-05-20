@@ -16,6 +16,7 @@ body:
         - API
         - Flight School
         - Documentation Website
+        - Infrastructure
         - Other
       default: 0
     validations:
